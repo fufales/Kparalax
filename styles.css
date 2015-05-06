@@ -1,0 +1,36 @@
+body > div {
+	display: block;
+	margin: 0 auto;
+	height: 500px;
+	border-top: 1px solid #ccc;
+}
+.image-1,
+.image-2 {
+	display: block;
+	margin: -200px auto;
+	width: 100%;
+	z-index: 1;
+	position: relative;
+}
+.content-1,
+.content-3 {
+	position: relative;
+	background-color: white;
+	z-index: 3;
+}
+
+
+body.body-2 .content-2 {
+	background-image: url('image-1.jpg');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-attachment: fixed;
+}
+body.body-2 .content-4 {
+	background-image: url('image-2.jpg');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-attachment: fixed;
+}
